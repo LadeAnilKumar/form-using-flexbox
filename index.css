@@ -1,0 +1,91 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.text {
+    font-size: 24px;
+
+}
+
+.line {
+
+    border: 1px solid grey;
+    display: flex;
+    background-size: cover;
+    width:70vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #9ea4f1, #df9ef1, rgb(255, 153, 0));
+}
+
+@media screen and (min-width: 768px) {
+    .line {
+        background: linear-gradient(to left, #24c4a4, #c42444);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .line {
+        background: linear-gradient(to right, #c48623, #4f232a);
+    }
+}
+/* @media screen and (min-width: 425px) {
+    .line {
+        background: linear-gradient(to right, #c48623, black);
+    }
+}
+ */
+
+
+
+
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    height: 20px;
+    width: 200px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.textarea {
+    height: 100px;
+    width: 200px;
+}
+.bottom1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.button-container {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+
+}
+
+.qualification {
+    margin-top: 20px;
+}
